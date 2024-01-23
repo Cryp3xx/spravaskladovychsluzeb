@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.product {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius:5px;
+}
+
+.product input {
+    margin-left: 10px;
+}
+
+#total-value {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.product:hover {
+    background-color:#0ac6ff;
+    
+}

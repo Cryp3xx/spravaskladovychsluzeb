@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Správa skladových zásob</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Správa skladových zásob</h1>
+    
+    <div id="product-list">
+    </div>
+
+    <button onclick="findMostExpensiveProduct()">Najít nejdražší produkt</button>
+    <br>
+    <label for="filterQuantity">Filtrovat produkty podle množství:</label>
+    <input type="number" id="filterQuantity" min="0">
+    <button onclick="filterProductsByQuantity()">Filtrovat</button>
+    <br>
+    <button onclick="calculateTotalValue()">Spočítat celkovou hodnotu zásob</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
